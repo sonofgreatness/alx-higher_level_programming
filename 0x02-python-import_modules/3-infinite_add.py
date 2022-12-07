@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Prints the sum of all arguments"""
 from sys import argv
-
-def sum():
+if __name__ == "__main__": 
+ def sum():
     sum = 0
     num_args = len(argv)
     if (num_args == 1):
@@ -13,4 +13,4 @@ def sum():
     return sum
 
 
-print("{:d}".format(sum()))
+ print("{:d}".format(sum()))
