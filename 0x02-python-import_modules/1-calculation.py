@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-from calculator_1 import add, sub, mul, div 
+from calculator_1 import add, sub, mul, div
+""" Perform arithmetic operations on
+    2 operands
+"""
 if __name__ == "__main__":
     a = 10
     b = 5
