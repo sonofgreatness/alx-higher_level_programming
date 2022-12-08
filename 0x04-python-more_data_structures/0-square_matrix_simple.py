@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     returnList = []
-    for list_ in matrix:
+    for list_ in matrix.copy():
         new_list = list(map(lambda x: x**2, list_))
         returnList.append(new_list)
     return returnList
